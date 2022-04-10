@@ -7,10 +7,28 @@
 body{
     color:var(--dark-color);
     background-color:var(--dark-color);
+
+    /*  
+    background: #F3904F;  fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #3B4371, #F3904F);
+    background: linear-gradient(to right, #3B4371, #F3904F); 
+    */
 }
 nav{
-    background-color: var(--dark-color);
+    background-color: transparent;
+    color: #b78d67;
 }
+
+/*.nav-link {
+    color: green;
+    background-color: greenyellow;
+} */
+
+navaacolor{
+    color: grean;
+    background-color: greenyellow;
+}
+
 footer{
     background-color: var(--dark-color);
 }
@@ -37,16 +55,20 @@ footer{
     padding-right: 0rem;
 }
 footer .social>a{
-    color: var(--white-color);
+    color: var(--primary-color);
     opacity: .75;
 }
 footer .social>a:hover{
     opacity: 0.9;
-    color: var(--secondary-color) ;
+    color: var(--white-color) ;
 }
 nav .social>a{
-    color: var(--white-color);
+    color: var(--primary-color);
     opacity: .75;
+}
+nav .social>a:hover{
+    opacity: 0.9;
+    color: var(--white-color) ;
 }
 
 .bsicon{
@@ -65,12 +87,6 @@ nav .social>a{
     color: var(--secondary-color);
 }
 
-code[class*="language-"],
-        pre[class*="language-"] {
-            white-space: pre-wrap;
-            word-break: break-all;
-            word-wrap: break-word;
-        }
 
 .iframe-container{
     position: relative;
