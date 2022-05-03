@@ -10,8 +10,8 @@
     font-family: qanaya;
 }
 .pressparagraph{
-    font-family: qanaya;
-    font-size:5em ;
+    font-size:3em ;
+    opacity: .9;
 }
 body{
     color:var(--dark-color);
