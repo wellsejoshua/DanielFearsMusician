@@ -104,6 +104,14 @@ nav .social>a:hover{
     opacity: 0.9;
     color: var(--white-color) ;
 }
+.modal .social>a{
+    color: var(--primary-color);
+    opacity: .75;
+}
+.modal .social>a:hover{
+    opacity: 0.9;
+    color: var(--white-color) ;
+}
 
 .bsicon{
     color: purple;
@@ -169,6 +177,10 @@ nav .social>a:hover{
 /* Press Section Rules*/
 .press{
     background: rgba(255, 252, 225, .2);
+    color: var(--modalText-color);
+}
+.presssecondary{
+    background: black;
     color: var(--modalText-color);
 }
 p.press{
