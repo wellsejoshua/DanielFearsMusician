@@ -183,6 +183,10 @@ nav .social>a:hover{
     background: black;
     color: var(--modalText-color);
 }
+h4.press{
+    color: var(--primary-color);
+
+}
 p.press{
     color: black;
     background-color: transparent;
@@ -207,12 +211,24 @@ a.press{
     border: 0px;
     }
 
-.upcomingShows{
+.upcomingshows{
     color: #000000;
     background-color: #777;
 }
-
+.contactForm{
+    color: var(--modalText-color);
+    background-color: var(--primary-color);
+}
+p.contactForm{
+    color: #e03a08;
+}
+main .contactForm>h1,h2,h3,h4,h5,h6{
+    color: var(--modalText-color);
+    text-align: center;
+    opacity: .75;
+}
 
 p.modalp{
     color: var(--modalText-color);
+    font-family: qanaya;
 }
