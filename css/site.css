@@ -4,6 +4,7 @@
     --dark-color: #000000;
     --white-color: #e7e7e7;
     --modalText-color:#fffce1;
+    --grey-color: rgb(54, 54, 54);
 }
 @font-face{
     src:url(/fonts/Qanaya-Regular.ttf);
@@ -194,7 +195,7 @@ p.press{
 a.press{
     background-color: var(--primary-color);
 }
-
+/* modified button classes*/
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #e03a08 !important;
     color: #fffce1;
@@ -206,6 +207,13 @@ a.press{
 /* cards */
 .btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
     background-color: var(--primary-color) !important;
+    color: #fffce1;
+    opacity: .75;
+    border: 0px;
+    }
+
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+    background-color: var(--grey-color) !important;
     color: #fffce1;
     opacity: .75;
     border: 0px;
