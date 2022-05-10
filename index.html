@@ -225,40 +225,27 @@
             <div class="contactForm text-center" >
                 <h2 class="mt-4 modalp">Stay In The Loop</h2>
                 <p class="modalp">Latest Music, Upcoming Shows, And Giveaways...No Spam</p>
-                <form>
+                <form name="mailingList" class="email-form" data-netlify="true" netlify-honeypot="bot-field" method="POST" >
+                    <div hidden aria-hidden="true">
+                        <label>
+                            Do Not fill this out if you are a human:
+                            <input name="bot-field" />
+                        </label>
+                    </div>
                     <div class="row">
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="Email" required>
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
                       </div>
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="Phone">
+                        <input type="number" name="phoneNumber" class="form-control" placeholder="Phone">
                       </div>
                       <div class="col-12 d-flex justify-content-center mb-2">
-                        <button type="button" class="btn btn-lg btn-dark mt-3">Join The List</button>
+                        <button type="submit" class="btn btn-lg btn-dark mt-3">Join The List</button>
                     </div>
                     </div>
                   </form>
             </div>
-
-
-            
-
-
-                    <!--Press-->
-
-
         </div>
-
-
-
-
-
-
-
-
-        
-
-
     </main>
         <!--Footer Section-->
         <!--Stretch out the icons the entire width-->
